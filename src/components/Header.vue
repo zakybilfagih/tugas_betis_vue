@@ -5,7 +5,9 @@
                 <router-link to="/">BETIS 2020</router-link>
             </div>
             <div class="header__navtoggle">
-                <button @click="navtoggle = !navtoggle">☰</button>
+                <button @click="navtoggle = !navtoggle">
+                    <img src="@/assets/img/hamburger.svg" alt="menu">
+                </button>
             </div>
         </div>
         <nav v-show="navtoggle">
@@ -54,15 +56,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    $base-color: #024059;
-    $sec-color: #F2BC1B;
-
     a {
         text-decoration: none;
         color: $base-color;
         font-family: 'Roboto';
         font-weight: 500;
-        font-size: 20px;
+        font-size: 23px;
     }
 
     header {
@@ -72,7 +71,7 @@ export default {
         justify-content: space-between;
         align-self: center;
         padding: 1.3em 2em;
-        min-height: 29px;
+        min-height: 32px;
 
         nav {
             margin-top: 1em;
