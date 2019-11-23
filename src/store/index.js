@@ -5,6 +5,10 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    subjects: {
+      'Saintek': ['Fisika', 'Biologi'],
+      'Soshum': ['Ekonomi']
+    }
   },
   mutations: {
   },
