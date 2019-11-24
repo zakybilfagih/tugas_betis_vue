@@ -10,7 +10,7 @@
                 <ul>
                     <li v-for="(link, j) in getData['link']" :key="j">
                         <img src="../assets/img/pdf.svg" alt="">
-                        <a :href="'//' + link['link']">{{ link['nama'] }}</a>
+                        <a :href="'https://' + link['link']">{{ link['nama'] }}</a>
                     </li>
                 </ul>
             </div>
