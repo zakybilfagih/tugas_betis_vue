@@ -1,9 +1,7 @@
 # Tugas BETIS 2020 Muhammad Zaki
 
 ## DEPLOY
-```
-Website bisa dilihat di (https://mackarelfish.github.io/betis/)
-```
+``` Website bisa dilihat di``` (https://mackarelfish.github.io/betis/)
 
 ## Project setup
 ```
