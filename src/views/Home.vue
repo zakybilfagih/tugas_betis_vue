@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="header">
-      <h1>Selamat datang di Situs BETIS 2020</h1>
+      <h1>Selamat datang di situs BETIS 2020</h1>
       <p>Klik mata pelajaran di samping</p>
     </div>
   </div>
