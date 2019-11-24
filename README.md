@@ -1,4 +1,9 @@
-# tugas_betis
+# Tugas BETIS 2020 Muhammad Zaki
+
+## DEPLOY
+```
+Website bisa dilihat di mackarelbetisdeploy.github.io
+```
 
 ## Project setup
 ```
