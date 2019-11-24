@@ -1,10 +1,8 @@
 <template>
-  <div class="home">
-    <div class="container">
-      <div class="header">
-        <h1>Selamat datang di Situs BETIS 2020</h1>
-        <p>Klik mata pelajaran di samping</p>
-      </div>
+  <div class="container">
+    <div class="header">
+      <h1>Selamat datang di Situs BETIS 2020</h1>
+      <p>Klik mata pelajaran di samping</p>
     </div>
   </div>
 </template>
@@ -16,20 +14,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .home {
+  .container {
     font-family: 'Roboto';
     color: $base-color;
-
-  }
-
-  .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     margin: 0 auto;
-    width: 90%;
-    height: 100%;
   }
 
   .header > *{
@@ -55,7 +46,7 @@ export default {
 
     h1 {
       font-size: 1.8em;
-      text-align: right;
+      text-align: left;
     }
   }
 </style>

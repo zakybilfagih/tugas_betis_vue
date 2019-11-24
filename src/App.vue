@@ -34,14 +34,17 @@ export default {
     flex-direction: column;
     height: calc(100vh - 73.6px);
 
+    .container {
+      flex-shrink: 0;
+    }
+
     > div {
-      height: 50%;
-      width: 100%;
+      min-height: 50%;
     }
 
     > .sidebar {
       order: 1;
-      height: 50%;
+      min-height: 50%;
     }
   }
 
@@ -55,10 +58,6 @@ export default {
         max-width: 300px;
         min-width: 200px;
         width: 30%;
-      }
-
-      > div {
-        height: 100%;
       }
     }
   }

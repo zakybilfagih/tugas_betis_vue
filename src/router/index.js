@@ -10,9 +10,29 @@ const routes = [
     component: () => import('../views/Home.vue')
   },
   {
+    path: '/profile',
+    name: 'profile',
+    component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/Home.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import('../views/About.vue')
+  },
+  {
+    path: '/subject',
+    name: 'subject',
+    component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/subject/:id',
+    name: 'sub subject',
+    component: () => import('../views/Subject.vue')
   }
 ]
 

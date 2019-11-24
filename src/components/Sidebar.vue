@@ -9,7 +9,7 @@
                         {{ subject }}
                     </li>
                     <ul v-if="sub_item[i]" class="subsub">
-                        <li v-for="(item, j) in subjects[subject]" :key="j">{{ item }}</li>
+                        <li v-for="(item, j) in subjects[subject]['data']" :key="j"><router-link :to="`/subject/${i}_${j}`">{{ item['nama'] }}</router-link></li>
                     </ul>
                 </ul>
             </nav>
@@ -36,11 +36,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    h3, li {
+    h3, li{
         font-family: 'Roboto';
         font-weight: 500;
         color: $base-color;
         list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: $base-color;
     }
 
     h3 {
@@ -84,6 +89,7 @@ export default {
         font-size: 1.6em;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     span {

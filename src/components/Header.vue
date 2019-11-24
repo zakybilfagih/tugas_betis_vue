@@ -13,16 +13,16 @@
         <nav v-show="navtoggle">
             <ul>
                 <li>
-                    <router-link to="/">About Us</router-link>
+                    <router-link to="/about">About Us</router-link>
                 </li>
                 <li>
-                    <router-link to="/about">Profile</router-link>
+                    <router-link to="/profile">Profile</router-link>
                 </li>
                 <li>
-                    <router-link to="/about">Subjects</router-link>
+                    <router-link to="/subject">Subjects</router-link>
                 </li>
                 <li>
-                    <router-link to="/about">Login</router-link>
+                    <router-link to="/login">Login</router-link>
                 </li>
             </ul>
         </nav>
