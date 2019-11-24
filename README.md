@@ -2,7 +2,7 @@
 
 ## DEPLOY
 ```
-Website bisa dilihat di (mackarelfish.github.io/betis/)
+Website bisa dilihat di (https://mackarelfish.github.io/betis/)
 ```
 
 ## Project setup
