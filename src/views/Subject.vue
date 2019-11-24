@@ -27,6 +27,7 @@
 
 <script>
 export default {
+    name: 'subject',
     data() {
         return {
             sub_info: {},
