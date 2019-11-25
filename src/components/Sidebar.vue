@@ -61,7 +61,7 @@ export default {
 
     .container {
         width: 80%;
-        margin: 2em auto;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -103,6 +103,7 @@ export default {
     @media only screen and (min-width: 750px) {
         .container {
             display: block;
+            margin: 2em auto;
         }
 
         .subsub li {
