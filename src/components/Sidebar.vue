@@ -103,6 +103,7 @@ export default {
         .container {
             display: block;
             margin: 2em auto;
+            flex: none;
         }
 
         .subsub li {

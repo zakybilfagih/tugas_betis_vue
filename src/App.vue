@@ -34,8 +34,9 @@ export default {
     flex-direction: column;
     min-height: calc(100vh - 73.6px);
 
-    .container {
+    > .container {
       flex-shrink: 0;
+      flex: 1;
     }
 
     > div {
