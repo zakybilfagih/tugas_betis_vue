@@ -55,13 +55,12 @@ export default {
 
     .sidebar {
         background: $pale-green;
-        height: 100%;
         display: flex;
     }
 
     .container {
         width: 80%;
-        margin: 0 auto;
+        margin: 4em auto;
         display: flex;
         justify-content: center;
         align-items: center;

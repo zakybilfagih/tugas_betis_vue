@@ -32,7 +32,7 @@ export default {
   .main {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 73.6px);
+    min-height: calc(100vh - 73.6px);
 
     .container {
       flex-shrink: 0;
@@ -54,7 +54,6 @@ export default {
 
       > .sidebar {
         order: 0;
-        height: 100%;
         max-width: 300px;
         min-width: 200px;
         width: 30%;
